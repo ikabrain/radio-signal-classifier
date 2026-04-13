@@ -1,5 +1,9 @@
 # Classifying Radio Signals with PyTorch
 
+[![Pixi Badge](https://img.shields.io/badge/PIXI-f9c405)](https://pixi.sh/)
+![Python Badge](https://img.shields.io/badge/python-3.10.6-blue?logo=python)
+[![PyTorch Badge](https://img.shields.io/badge/PyTorch-2.10.0-ee4c2c?logo=pytorch)](https://pytorch.org/)
+
 This project involves loading a pre-trained state-of-the-art CNN to classify radio signals (with inputs as spectogram images) into Squiggle, Noises, Narrowband, etc. Furthermore, we apply spectogram augmentation using time & frequency masking. This could practically be used in contexts involving military, security, telecommunications, and space technology.
 
 ## Dataset Description

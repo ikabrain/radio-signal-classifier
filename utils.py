@@ -17,7 +17,7 @@ def view_classify(img, ps, true_label=None):
     fig, (ax1, ax2) = plt.subplots(figsize=(12, 8), ncols=2)
     ax1.imshow(img)
     ax1.axis("off")
-    if true_label != None:
+    if true_label is not None:
         ax1.set_title(f"Ground-Truth : {true_label}")
     ax2.barh(classes, ps)
     ax2.set_aspect(0.1)
